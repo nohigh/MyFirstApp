@@ -82,7 +82,7 @@ namespace Nohai_Dragos_Ionut_Lab2.Controllers
         }
 
         // POST: Books/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for asdasdds
+        // To protect from overposting attacks, enable the specific properties you want to bind to, forasad
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
