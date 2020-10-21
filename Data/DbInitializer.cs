@@ -41,10 +41,10 @@ namespace Nohai_Dragos_Ionut_Lab2.Data
 
             var orders = new Order[]
             {
-                new Order{BookID=1, CustomerID=1050},
-                new Order{BookID=3, CustomerID=1055},
-                new Order{BookID=1, CustomerID=1055},
-                new Order{BookID=2, CustomerID=1050},
+                new Order{BookID=1, CustomerID=1050, OrderDate=DateTime.Parse("08-01-2020")},
+                new Order{BookID=3, CustomerID=1055, OrderDate=DateTime.Parse("09-09-2020")},
+                new Order{BookID=1, CustomerID=1055, OrderDate=DateTime.Parse("10-10-2020")},
+                new Order{BookID=2, CustomerID=1050, OrderDate=DateTime.Parse("11-11-2020")},
 
             };
             foreach(Order e in orders)
