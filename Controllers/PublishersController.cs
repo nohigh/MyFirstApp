@@ -6,8 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization.Internal;
-using Nohai_Dragos_Ionut_Lab2.Data;
-using Nohai_Dragos_Ionut_Lab2.Models;
+using LibraryModel.Data;
+using LibraryModel.Models;
 using Nohai_Dragos_Ionut_Lab2.Models.LibraryViewModels;
 
 namespace Nohai_Dragos_Ionut_Lab2.Controllers

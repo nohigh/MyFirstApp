@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Nohai_Dragos_Ionut_Lab2.Models;
+using LibraryModel.Data;
+using LibraryModel.Models;
 
 namespace Nohai_Dragos_Ionut_Lab2.Data
 {

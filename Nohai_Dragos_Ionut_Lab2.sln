@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nohai_Dragos_Ionut_Lab2", "Nohai_Dragos_Ionut_Lab2.csproj", "{2A9ACB32-2C52-4BA6-B7CD-DF9E5735CF8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nohai_Dragos_Ionut_Lab2", "Nohai_Dragos_Ionut_Lab2.csproj", "{2A9ACB32-2C52-4BA6-B7CD-DF9E5735CF8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryModel", "..\LibraryModel\LibraryModel.csproj", "{1821FA89-9117-4CC8-95D5-ED15C3F6FFB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryWebAPI", "..\LibraryWebAPI\LibraryWebAPI.csproj", "{430DF992-B636-4C8F-9104-5C8800200FBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2A9ACB32-2C52-4BA6-B7CD-DF9E5735CF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A9ACB32-2C52-4BA6-B7CD-DF9E5735CF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A9ACB32-2C52-4BA6-B7CD-DF9E5735CF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1821FA89-9117-4CC8-95D5-ED15C3F6FFB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1821FA89-9117-4CC8-95D5-ED15C3F6FFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1821FA89-9117-4CC8-95D5-ED15C3F6FFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1821FA89-9117-4CC8-95D5-ED15C3F6FFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430DF992-B636-4C8F-9104-5C8800200FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430DF992-B636-4C8F-9104-5C8800200FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430DF992-B636-4C8F-9104-5C8800200FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430DF992-B636-4C8F-9104-5C8800200FBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

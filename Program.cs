@@ -7,8 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
-using Nohai_Dragos_Ionut_Lab2;
-using Nohai_Dragos_Ionut_Lab2.Data;
+using LibraryModel.Data;
 
 namespace Nohai_Dragos_Ionut_Lab2
 {
@@ -23,7 +22,7 @@ namespace Nohai_Dragos_Ionut_Lab2
                 try
                 {
                     var context = services.GetRequiredService<LibraryContext>();
-                    DbInitializer.Initialize(context);
+                    Data.DbInitializer.Initialize(context);
                 }
                 catch (Exception ex)
                 {

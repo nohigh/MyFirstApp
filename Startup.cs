@@ -8,8 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Nohai_Dragos_Ionut_Lab2.Data;
 using Microsoft.EntityFrameworkCore;
+using LibraryModel.Data;
 
 namespace Nohai_Dragos_Ionut_Lab2
 {

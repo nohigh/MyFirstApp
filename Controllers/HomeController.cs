@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Nohai_Dragos_Ionut_Lab2.Models;
 using Microsoft.EntityFrameworkCore;
-using Nohai_Dragos_Ionut_Lab2.Controllers;
+using LibraryModel.Data;
+using LibraryModel.Models;
 using Nohai_Dragos_Ionut_Lab2.Models.LibraryViewModels;
-using Nohai_Dragos_Ionut_Lab2.Data;
 
 namespace Nohai_Dragos_Ionut_Lab2.Controllers
 {
