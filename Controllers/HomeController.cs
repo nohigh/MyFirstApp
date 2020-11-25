@@ -19,11 +19,11 @@ namespace Nohai_Dragos_Ionut_Lab2.Controllers
             _context = context;
         }
 
-        private readonly ILogger<HomeController> _logger;
+        //private readonly ILogger<HomeController> _logger;
 
         //public HomeController(ILogger<HomeController> logger)
         //{
-         //   _logger = logger;
+          //  _logger = logger;
         //}
 
         public IActionResult Index()
@@ -32,6 +32,11 @@ namespace Nohai_Dragos_Ionut_Lab2.Controllers
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Chat()
         {
             return View();
         }
