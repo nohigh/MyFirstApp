@@ -5,9 +5,16 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nohai_Dragos_Ionut_Lab2", "Nohai_Dragos_Ionut_Lab2.csproj", "{2A9ACB32-2C52-4BA6-B7CD-DF9E5735CF8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryModel", "..\LibraryModel\LibraryModel.csproj", "{1821FA89-9117-4CC8-95D5-ED15C3F6FFB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryModel", "..\LibraryModel\LibraryModel.csproj", "{1821FA89-9117-4CC8-95D5-ED15C3F6FFB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryWebAPI", "..\LibraryWebAPI\LibraryWebAPI.csproj", "{430DF992-B636-4C8F-9104-5C8800200FBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryWebAPI", "..\LibraryWebAPI\LibraryWebAPI.csproj", "{430DF992-B636-4C8F-9104-5C8800200FBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcCustomersService", "..\GrpcCustomerService\GrpcCustomersService.csproj", "{E3BE1DCC-6303-4D67-B885-327346470F3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C4FF312F-6FFD-4801-90E0-AA2B7D2C6480}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +34,10 @@ Global
 		{430DF992-B636-4C8F-9104-5C8800200FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{430DF992-B636-4C8F-9104-5C8800200FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{430DF992-B636-4C8F-9104-5C8800200FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3BE1DCC-6303-4D67-B885-327346470F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3BE1DCC-6303-4D67-B885-327346470F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3BE1DCC-6303-4D67-B885-327346470F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3BE1DCC-6303-4D67-B885-327346470F3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
